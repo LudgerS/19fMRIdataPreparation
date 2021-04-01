@@ -24,7 +24,7 @@
 % Adjust 'addpath' arguments in this section before use.
 % ------------------------------------------------------ %
 %
-% Written by Ludger Starke; Max Delbrück Center for Molecular Medicine in
+% Written by Ludger Starke; Max DelbrÃ¼ck Center for Molecular Medicine in
 % the Helmholtz Association, Berlin; 20-02-14
 %
 % License: GNU GPLv3 
@@ -32,7 +32,7 @@
 clear, close all
 
 addpath([pwd, filesep, 'subFunctions'])                                    % add subFunctions folder coming with the repository to the search path
-addpath('C:\githubRepositories\MRInoiseBiasCorrection')                                    % add MRInoiseBiasCorrection tool to the search path
+addpath([pwd, filesep, 'MRInoiseBiasCorrection'])                          % add MRInoiseBiasCorrection tool to the search path
 
 load('exampleData')
 
